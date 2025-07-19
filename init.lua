@@ -22,6 +22,8 @@ require("lazy").setup({
     import = "nvchad.plugins",
   },
 
+  {"nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate"},
+
   { import = "plugins" },
 }, lazy_config)
 
