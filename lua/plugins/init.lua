@@ -13,6 +13,10 @@ return {
     end,
   },
 
+    {
+    'nvim-telescope/telescope.nvim', tag = '0.1.8',
+      dependencies = { 'nvim-lua/plenary.nvim' }
+    },
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
