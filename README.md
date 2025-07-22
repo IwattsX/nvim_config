@@ -34,8 +34,20 @@ File tree should look like this.
 4 directories, 12 files
 ```
 
+# Commands:
+Useful for extension handling
+```:Lazy```
+
+Useful for running health checks on neovim.
+```:checkhealth```
+
+Other commands can be found in the mappings.lua file
+
+
+
 # plugins installed
 - Treesitter
 - Telescope
 - Telescope File browser
 - lspconfig
+- undotree

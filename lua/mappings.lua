@@ -20,3 +20,7 @@ map("n", "<space>fb", ":Telescope file_browser<CR>")
 -- open file_browser with the path of the current buffer
 map("n", "<space>fb", ":Telescope file_browser path=%:p:h select_buffer=true<CR>")
 
+
+
+map('n', '<leader>u', require('undotree').toggle, { noremap = true, silent = true })
+
